@@ -1,8 +1,8 @@
 from collections.abc import Generator
 from functools import lru_cache
 
-from sqlalchemy import Engine
-from sqlmodel import Session, create_engine
+from sqlalchemy import Engine, create_engine
+from sqlmodel import Session
 
 from .config import get_settings
 

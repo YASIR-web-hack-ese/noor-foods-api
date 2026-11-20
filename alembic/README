@@ -1,0 +1,4 @@
+# Alembic migrations
+
+Migration files live in `versions/` and are applied in `down_revision` order.
+Use the commands documented in the project README.
